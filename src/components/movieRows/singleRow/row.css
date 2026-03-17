@@ -24,7 +24,7 @@
 
 /* Default poster style */
 .poster-image {
-  object-fit: contain;
+  /* object-fit: contain; */
   width: 100%;
   max-height: 120px;
   transition: transform 450ms;
@@ -39,8 +39,8 @@
 
 /* Hover effect */
 .poster-image:hover {
-  transform: scale(1.05);
-  opacity: 1;
+  transform: scale(1.01);
+  opacity: 50%;
 }
 
 

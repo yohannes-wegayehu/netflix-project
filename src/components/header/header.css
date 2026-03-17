@@ -6,7 +6,7 @@
   justify-content: space-between;
   align-items: center;
   height: 10vh;
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
@@ -15,6 +15,7 @@
   /* background-color: #333; */
   /* background-color: transparent; */
   color: hsl(0, 0%, 80%);
+  opacity: 100%;
   
 }
 .header-left{
